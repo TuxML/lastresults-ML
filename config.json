@@ -1,8 +1,9 @@
 {
-    "max_depth": [35],
+    "max_depth": [25],
     "nbFolds": 5,
     "n_estimators": 100,
-    "minSampleSize": 90000,
-    "maxSampleSize": 92000,
-    "paceSampleSize": 3000
+    "max_features": 2000,
+    "minSampleSize": 10000,
+    "maxSampleSize": 20002,
+    "paceSampleSize": 5000
 }
