@@ -1,7 +1,7 @@
 {
-    "max_depth": [10, 25],
+    "max_depth": [35],
     "nbFolds": 5,
-    "n_estimators": 50,
+    "n_estimators": 100,
     "minSampleSize": 90000,
     "maxSampleSize": 92000,
     "paceSampleSize": 3000
