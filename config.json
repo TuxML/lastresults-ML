@@ -2,8 +2,7 @@
     "max_depth": [25],
     "nbFolds": 5,
     "n_estimators": 100,
-    "max_features": 2000,
     "minSampleSize": 10000,
-    "maxSampleSize": 20002,
+    "maxSampleSize": 40002,
     "paceSampleSize": 5000
 }
