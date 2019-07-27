@@ -5,7 +5,7 @@
     "nbFolds": 5,
     "n_estimators": 100,
     "perf": "vmlinux",
-    "minSampleSize": 10000,
-    "maxSampleSize": 20001,
+    "minSampleSize": 90000,
+    "maxSampleSize": 90001,
     "paceSampleSize": 10000
 }
