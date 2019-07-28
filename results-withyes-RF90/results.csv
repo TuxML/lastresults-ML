@@ -1,0 +1,2 @@
+count,mean,std,min,25%,50%,75%,max,criterion,max_depth,min_samples_split,min_samples_leaf,min_weight_fraction_leaf,max_features,random_state,max_leaf_nodes,min_impurity_decrease,min_impurity_split,n_estimators,n_jobs,random_id,train_size,nb_yes,algo,perf
+12355.0,8.42980194098046,7.929599123119101,0.000614070956359096,2.995100428345176,6.4370355829748815,11.49447380159313,131.75963280855876,mse,25,2,1,0.0,auto,,,1e-07,0,100,-1,0.5979270286731445,90000,1,rf,vmlinux

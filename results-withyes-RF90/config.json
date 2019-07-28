@@ -1,0 +1,11 @@
+{
+    "resultsPath": "results-withyes-RF90/",
+    "columns_to_drop" : ["cid", "vmlinux", "GZIP-bzImage", "GZIP-vmlinux", "GZIP", "BZIP2-bzImage", "BZIP2-vmlinux", "BZIP2", "LZMA-bzImage", "LZMA-vmlinux", "LZMA", "XZ-bzImage", "XZ-vmlinux", "XZ", "LZO-bzImage", "LZO-vmlinux", "LZO", "LZ4-bzImage", "LZ4-vmlinux", "LZ4", "nbyesmodule", "nbno", "nbmodule"],
+    "max_depth": [25],
+    "nbFolds": 5,
+    "n_estimators": 100,
+    "perf": "vmlinux",
+    "minSampleSize": 90000,
+    "maxSampleSize": 90001,
+    "paceSampleSize": 10000
+}
