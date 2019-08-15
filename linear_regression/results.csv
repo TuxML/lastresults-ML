@@ -1,0 +1,361 @@
+,algorithm_name,origin_ft_selection,ft_selection,num_options,hyperparameters,size_target,additional_ft,test_size,coef_order,accuracy
+0,LinearRegression,None,"Index(['X86_LOCAL_APIC', 'OPENVSWITCH', 'TEXTSEARCH_FSM', 'LOCKDEP_SUPPORT',
+       'GENERIC_CLOCKEVENTS_MIN_ADJUST', 'NETFILTER_XT_MATCH_TCPMSS', 'MPLS',
+       'NFC_HCI', 'STACKTRACE_SUPPORT', 'GENERIC_CMOS_UPDATE',
+       ...
+       'SND_SOC_INTEL_SKL_NAU88L25_SSM4567_MACH', 'APDS9960',
+       'ARCH_SUPPORTS_INT128', 'SLABINFO', 'MICROCODE_AMD', 'ISDN_DRV_HISAX',
+       'CHARGER_BQ24190', 'SND_SOC_NAU8825', 'BH1750', 'NETWORK_FILESYSTEMS'],
+      dtype='object', length=12478)",12478,"LinearRegression(copy_X=True, fit_intercept=True, n_jobs=None,
+         normalize=False)",vmlinux,[],0.1,coef_LinearRegression_None_10_12498.csv,1799746.712544723
+1,LassoCV,None,"Index(['X86_LOCAL_APIC', 'OPENVSWITCH', 'TEXTSEARCH_FSM', 'LOCKDEP_SUPPORT',
+       'GENERIC_CLOCKEVENTS_MIN_ADJUST', 'NETFILTER_XT_MATCH_TCPMSS', 'MPLS',
+       'NFC_HCI', 'STACKTRACE_SUPPORT', 'GENERIC_CMOS_UPDATE',
+       ...
+       'SND_SOC_INTEL_SKL_NAU88L25_SSM4567_MACH', 'APDS9960',
+       'ARCH_SUPPORTS_INT128', 'SLABINFO', 'MICROCODE_AMD', 'ISDN_DRV_HISAX',
+       'CHARGER_BQ24190', 'SND_SOC_NAU8825', 'BH1750', 'NETWORK_FILESYSTEMS'],
+      dtype='object', length=12478)",12478,"LassoCV(alphas=None, copy_X=True, cv=2, eps=0.001, fit_intercept=True,
+    max_iter=1000, n_alphas=100, n_jobs=-1, normalize=False,
+    positive=False, precompute='auto', random_state=None,
+    selection='cyclic', tol=0.0001, verbose=False)",vmlinux,[],0.1,coef_LassoCV_None_10_12498.csv,38.510461943935866
+2,RidgeCV,None,"Index(['X86_LOCAL_APIC', 'OPENVSWITCH', 'TEXTSEARCH_FSM', 'LOCKDEP_SUPPORT',
+       'GENERIC_CLOCKEVENTS_MIN_ADJUST', 'NETFILTER_XT_MATCH_TCPMSS', 'MPLS',
+       'NFC_HCI', 'STACKTRACE_SUPPORT', 'GENERIC_CMOS_UPDATE',
+       ...
+       'SND_SOC_INTEL_SKL_NAU88L25_SSM4567_MACH', 'APDS9960',
+       'ARCH_SUPPORTS_INT128', 'SLABINFO', 'MICROCODE_AMD', 'ISDN_DRV_HISAX',
+       'CHARGER_BQ24190', 'SND_SOC_NAU8825', 'BH1750', 'NETWORK_FILESYSTEMS'],
+      dtype='object', length=12478)",12478,"RidgeCV(alphas=array([ 0.1,  1. , 10. ]), cv=2, fit_intercept=True,
+    gcv_mode=None, normalize=False, scoring=None, store_cv_values=False)",vmlinux,[],0.1,coef_RidgeCV_None_10_12498.csv,54.55083863144847
+3,ElasticNetCV,None,"Index(['X86_LOCAL_APIC', 'OPENVSWITCH', 'TEXTSEARCH_FSM', 'LOCKDEP_SUPPORT',
+       'GENERIC_CLOCKEVENTS_MIN_ADJUST', 'NETFILTER_XT_MATCH_TCPMSS', 'MPLS',
+       'NFC_HCI', 'STACKTRACE_SUPPORT', 'GENERIC_CMOS_UPDATE',
+       ...
+       'SND_SOC_INTEL_SKL_NAU88L25_SSM4567_MACH', 'APDS9960',
+       'ARCH_SUPPORTS_INT128', 'SLABINFO', 'MICROCODE_AMD', 'ISDN_DRV_HISAX',
+       'CHARGER_BQ24190', 'SND_SOC_NAU8825', 'BH1750', 'NETWORK_FILESYSTEMS'],
+      dtype='object', length=12478)",12478,"ElasticNetCV(alphas=None, copy_X=True, cv=2, eps=0.001, fit_intercept=True,
+       l1_ratio=0.5, max_iter=1000, n_alphas=100, n_jobs=-1,
+       normalize=False, positive=False, precompute='auto',
+       random_state=None, selection='cyclic', tol=0.0001, verbose=0)",vmlinux,[],0.1,coef_ElasticNetCV_None_10_12498.csv,80.88098709438104
+4,LinearRegression,None,"Index(['X86_LOCAL_APIC', 'OPENVSWITCH', 'TEXTSEARCH_FSM', 'LOCKDEP_SUPPORT',
+       'GENERIC_CLOCKEVENTS_MIN_ADJUST', 'NETFILTER_XT_MATCH_TCPMSS', 'MPLS',
+       'NFC_HCI', 'STACKTRACE_SUPPORT', 'GENERIC_CMOS_UPDATE',
+       ...
+       'SND_SOC_INTEL_SKL_NAU88L25_SSM4567_MACH', 'APDS9960',
+       'ARCH_SUPPORTS_INT128', 'SLABINFO', 'MICROCODE_AMD', 'ISDN_DRV_HISAX',
+       'CHARGER_BQ24190', 'SND_SOC_NAU8825', 'BH1750', 'NETWORK_FILESYSTEMS'],
+      dtype='object', length=12478)",12478,"LinearRegression(copy_X=True, fit_intercept=True, n_jobs=None,
+         normalize=False)",vmlinux,[],0.2,coef_LinearRegression_None_20_12498.csv,2603967.328256328
+5,LassoCV,None,"Index(['X86_LOCAL_APIC', 'OPENVSWITCH', 'TEXTSEARCH_FSM', 'LOCKDEP_SUPPORT',
+       'GENERIC_CLOCKEVENTS_MIN_ADJUST', 'NETFILTER_XT_MATCH_TCPMSS', 'MPLS',
+       'NFC_HCI', 'STACKTRACE_SUPPORT', 'GENERIC_CMOS_UPDATE',
+       ...
+       'SND_SOC_INTEL_SKL_NAU88L25_SSM4567_MACH', 'APDS9960',
+       'ARCH_SUPPORTS_INT128', 'SLABINFO', 'MICROCODE_AMD', 'ISDN_DRV_HISAX',
+       'CHARGER_BQ24190', 'SND_SOC_NAU8825', 'BH1750', 'NETWORK_FILESYSTEMS'],
+      dtype='object', length=12478)",12478,"LassoCV(alphas=None, copy_X=True, cv=2, eps=0.001, fit_intercept=True,
+    max_iter=1000, n_alphas=100, n_jobs=-1, normalize=False,
+    positive=False, precompute='auto', random_state=None,
+    selection='cyclic', tol=0.0001, verbose=False)",vmlinux,[],0.2,coef_LassoCV_None_20_12498.csv,38.067080778905435
+6,RidgeCV,None,"Index(['X86_LOCAL_APIC', 'OPENVSWITCH', 'TEXTSEARCH_FSM', 'LOCKDEP_SUPPORT',
+       'GENERIC_CLOCKEVENTS_MIN_ADJUST', 'NETFILTER_XT_MATCH_TCPMSS', 'MPLS',
+       'NFC_HCI', 'STACKTRACE_SUPPORT', 'GENERIC_CMOS_UPDATE',
+       ...
+       'SND_SOC_INTEL_SKL_NAU88L25_SSM4567_MACH', 'APDS9960',
+       'ARCH_SUPPORTS_INT128', 'SLABINFO', 'MICROCODE_AMD', 'ISDN_DRV_HISAX',
+       'CHARGER_BQ24190', 'SND_SOC_NAU8825', 'BH1750', 'NETWORK_FILESYSTEMS'],
+      dtype='object', length=12478)",12478,"RidgeCV(alphas=array([ 0.1,  1. , 10. ]), cv=2, fit_intercept=True,
+    gcv_mode=None, normalize=False, scoring=None, store_cv_values=False)",vmlinux,[],0.2,coef_RidgeCV_None_20_12498.csv,55.75410329968095
+7,ElasticNetCV,None,"Index(['X86_LOCAL_APIC', 'OPENVSWITCH', 'TEXTSEARCH_FSM', 'LOCKDEP_SUPPORT',
+       'GENERIC_CLOCKEVENTS_MIN_ADJUST', 'NETFILTER_XT_MATCH_TCPMSS', 'MPLS',
+       'NFC_HCI', 'STACKTRACE_SUPPORT', 'GENERIC_CMOS_UPDATE',
+       ...
+       'SND_SOC_INTEL_SKL_NAU88L25_SSM4567_MACH', 'APDS9960',
+       'ARCH_SUPPORTS_INT128', 'SLABINFO', 'MICROCODE_AMD', 'ISDN_DRV_HISAX',
+       'CHARGER_BQ24190', 'SND_SOC_NAU8825', 'BH1750', 'NETWORK_FILESYSTEMS'],
+      dtype='object', length=12478)",12478,"ElasticNetCV(alphas=None, copy_X=True, cv=2, eps=0.001, fit_intercept=True,
+       l1_ratio=0.5, max_iter=1000, n_alphas=100, n_jobs=-1,
+       normalize=False, positive=False, precompute='auto',
+       random_state=None, selection='cyclic', tol=0.0001, verbose=0)",vmlinux,[],0.2,coef_ElasticNetCV_None_20_12498.csv,80.57381789168184
+8,LinearRegression,None,"Index(['X86_LOCAL_APIC', 'OPENVSWITCH', 'TEXTSEARCH_FSM', 'LOCKDEP_SUPPORT',
+       'GENERIC_CLOCKEVENTS_MIN_ADJUST', 'NETFILTER_XT_MATCH_TCPMSS', 'MPLS',
+       'NFC_HCI', 'STACKTRACE_SUPPORT', 'GENERIC_CMOS_UPDATE',
+       ...
+       'SND_SOC_INTEL_SKL_NAU88L25_SSM4567_MACH', 'APDS9960',
+       'ARCH_SUPPORTS_INT128', 'SLABINFO', 'MICROCODE_AMD', 'ISDN_DRV_HISAX',
+       'CHARGER_BQ24190', 'SND_SOC_NAU8825', 'BH1750', 'NETWORK_FILESYSTEMS'],
+      dtype='object', length=12478)",12478,"LinearRegression(copy_X=True, fit_intercept=True, n_jobs=None,
+         normalize=False)",vmlinux,[],0.3,coef_LinearRegression_None_30_12498.csv,60889147.84492252
+9,LassoCV,None,"Index(['X86_LOCAL_APIC', 'OPENVSWITCH', 'TEXTSEARCH_FSM', 'LOCKDEP_SUPPORT',
+       'GENERIC_CLOCKEVENTS_MIN_ADJUST', 'NETFILTER_XT_MATCH_TCPMSS', 'MPLS',
+       'NFC_HCI', 'STACKTRACE_SUPPORT', 'GENERIC_CMOS_UPDATE',
+       ...
+       'SND_SOC_INTEL_SKL_NAU88L25_SSM4567_MACH', 'APDS9960',
+       'ARCH_SUPPORTS_INT128', 'SLABINFO', 'MICROCODE_AMD', 'ISDN_DRV_HISAX',
+       'CHARGER_BQ24190', 'SND_SOC_NAU8825', 'BH1750', 'NETWORK_FILESYSTEMS'],
+      dtype='object', length=12478)",12478,"LassoCV(alphas=None, copy_X=True, cv=2, eps=0.001, fit_intercept=True,
+    max_iter=1000, n_alphas=100, n_jobs=-1, normalize=False,
+    positive=False, precompute='auto', random_state=None,
+    selection='cyclic', tol=0.0001, verbose=False)",vmlinux,[],0.3,coef_LassoCV_None_30_12498.csv,37.63947595877246
+10,RidgeCV,None,"Index(['X86_LOCAL_APIC', 'OPENVSWITCH', 'TEXTSEARCH_FSM', 'LOCKDEP_SUPPORT',
+       'GENERIC_CLOCKEVENTS_MIN_ADJUST', 'NETFILTER_XT_MATCH_TCPMSS', 'MPLS',
+       'NFC_HCI', 'STACKTRACE_SUPPORT', 'GENERIC_CMOS_UPDATE',
+       ...
+       'SND_SOC_INTEL_SKL_NAU88L25_SSM4567_MACH', 'APDS9960',
+       'ARCH_SUPPORTS_INT128', 'SLABINFO', 'MICROCODE_AMD', 'ISDN_DRV_HISAX',
+       'CHARGER_BQ24190', 'SND_SOC_NAU8825', 'BH1750', 'NETWORK_FILESYSTEMS'],
+      dtype='object', length=12478)",12478,"RidgeCV(alphas=array([ 0.1,  1. , 10. ]), cv=2, fit_intercept=True,
+    gcv_mode=None, normalize=False, scoring=None, store_cv_values=False)",vmlinux,[],0.3,coef_RidgeCV_None_30_12498.csv,57.80490230379587
+11,ElasticNetCV,None,"Index(['X86_LOCAL_APIC', 'OPENVSWITCH', 'TEXTSEARCH_FSM', 'LOCKDEP_SUPPORT',
+       'GENERIC_CLOCKEVENTS_MIN_ADJUST', 'NETFILTER_XT_MATCH_TCPMSS', 'MPLS',
+       'NFC_HCI', 'STACKTRACE_SUPPORT', 'GENERIC_CMOS_UPDATE',
+       ...
+       'SND_SOC_INTEL_SKL_NAU88L25_SSM4567_MACH', 'APDS9960',
+       'ARCH_SUPPORTS_INT128', 'SLABINFO', 'MICROCODE_AMD', 'ISDN_DRV_HISAX',
+       'CHARGER_BQ24190', 'SND_SOC_NAU8825', 'BH1750', 'NETWORK_FILESYSTEMS'],
+      dtype='object', length=12478)",12478,"ElasticNetCV(alphas=None, copy_X=True, cv=2, eps=0.001, fit_intercept=True,
+       l1_ratio=0.5, max_iter=1000, n_alphas=100, n_jobs=-1,
+       normalize=False, positive=False, precompute='auto',
+       random_state=None, selection='cyclic', tol=0.0001, verbose=0)",vmlinux,[],0.3,coef_ElasticNetCV_None_30_12498.csv,80.98805401234469
+12,LinearRegression,None,"Index(['X86_LOCAL_APIC', 'OPENVSWITCH', 'TEXTSEARCH_FSM', 'LOCKDEP_SUPPORT',
+       'GENERIC_CLOCKEVENTS_MIN_ADJUST', 'NETFILTER_XT_MATCH_TCPMSS', 'MPLS',
+       'NFC_HCI', 'STACKTRACE_SUPPORT', 'GENERIC_CMOS_UPDATE',
+       ...
+       'SND_SOC_INTEL_SKL_NAU88L25_SSM4567_MACH', 'APDS9960',
+       'ARCH_SUPPORTS_INT128', 'SLABINFO', 'MICROCODE_AMD', 'ISDN_DRV_HISAX',
+       'CHARGER_BQ24190', 'SND_SOC_NAU8825', 'BH1750', 'NETWORK_FILESYSTEMS'],
+      dtype='object', length=12478)",12478,"LinearRegression(copy_X=True, fit_intercept=True, n_jobs=None,
+         normalize=False)",vmlinux,[],0.4,coef_LinearRegression_None_40_12498.csv,41470720.37609527
+13,LassoCV,None,"Index(['X86_LOCAL_APIC', 'OPENVSWITCH', 'TEXTSEARCH_FSM', 'LOCKDEP_SUPPORT',
+       'GENERIC_CLOCKEVENTS_MIN_ADJUST', 'NETFILTER_XT_MATCH_TCPMSS', 'MPLS',
+       'NFC_HCI', 'STACKTRACE_SUPPORT', 'GENERIC_CMOS_UPDATE',
+       ...
+       'SND_SOC_INTEL_SKL_NAU88L25_SSM4567_MACH', 'APDS9960',
+       'ARCH_SUPPORTS_INT128', 'SLABINFO', 'MICROCODE_AMD', 'ISDN_DRV_HISAX',
+       'CHARGER_BQ24190', 'SND_SOC_NAU8825', 'BH1750', 'NETWORK_FILESYSTEMS'],
+      dtype='object', length=12478)",12478,"LassoCV(alphas=None, copy_X=True, cv=2, eps=0.001, fit_intercept=True,
+    max_iter=1000, n_alphas=100, n_jobs=-1, normalize=False,
+    positive=False, precompute='auto', random_state=None,
+    selection='cyclic', tol=0.0001, verbose=False)",vmlinux,[],0.4,coef_LassoCV_None_40_12498.csv,37.10119169760452
+14,RidgeCV,None,"Index(['X86_LOCAL_APIC', 'OPENVSWITCH', 'TEXTSEARCH_FSM', 'LOCKDEP_SUPPORT',
+       'GENERIC_CLOCKEVENTS_MIN_ADJUST', 'NETFILTER_XT_MATCH_TCPMSS', 'MPLS',
+       'NFC_HCI', 'STACKTRACE_SUPPORT', 'GENERIC_CMOS_UPDATE',
+       ...
+       'SND_SOC_INTEL_SKL_NAU88L25_SSM4567_MACH', 'APDS9960',
+       'ARCH_SUPPORTS_INT128', 'SLABINFO', 'MICROCODE_AMD', 'ISDN_DRV_HISAX',
+       'CHARGER_BQ24190', 'SND_SOC_NAU8825', 'BH1750', 'NETWORK_FILESYSTEMS'],
+      dtype='object', length=12478)",12478,"RidgeCV(alphas=array([ 0.1,  1. , 10. ]), cv=2, fit_intercept=True,
+    gcv_mode=None, normalize=False, scoring=None, store_cv_values=False)",vmlinux,[],0.4,coef_RidgeCV_None_40_12498.csv,59.04523544804865
+15,ElasticNetCV,None,"Index(['X86_LOCAL_APIC', 'OPENVSWITCH', 'TEXTSEARCH_FSM', 'LOCKDEP_SUPPORT',
+       'GENERIC_CLOCKEVENTS_MIN_ADJUST', 'NETFILTER_XT_MATCH_TCPMSS', 'MPLS',
+       'NFC_HCI', 'STACKTRACE_SUPPORT', 'GENERIC_CMOS_UPDATE',
+       ...
+       'SND_SOC_INTEL_SKL_NAU88L25_SSM4567_MACH', 'APDS9960',
+       'ARCH_SUPPORTS_INT128', 'SLABINFO', 'MICROCODE_AMD', 'ISDN_DRV_HISAX',
+       'CHARGER_BQ24190', 'SND_SOC_NAU8825', 'BH1750', 'NETWORK_FILESYSTEMS'],
+      dtype='object', length=12478)",12478,"ElasticNetCV(alphas=None, copy_X=True, cv=2, eps=0.001, fit_intercept=True,
+       l1_ratio=0.5, max_iter=1000, n_alphas=100, n_jobs=-1,
+       normalize=False, positive=False, precompute='auto',
+       random_state=None, selection='cyclic', tol=0.0001, verbose=0)",vmlinux,[],0.4,coef_ElasticNetCV_None_40_12498.csv,80.58208154828823
+16,LinearRegression,None,"Index(['X86_LOCAL_APIC', 'OPENVSWITCH', 'TEXTSEARCH_FSM', 'LOCKDEP_SUPPORT',
+       'GENERIC_CLOCKEVENTS_MIN_ADJUST', 'NETFILTER_XT_MATCH_TCPMSS', 'MPLS',
+       'NFC_HCI', 'STACKTRACE_SUPPORT', 'GENERIC_CMOS_UPDATE',
+       ...
+       'SND_SOC_INTEL_SKL_NAU88L25_SSM4567_MACH', 'APDS9960',
+       'ARCH_SUPPORTS_INT128', 'SLABINFO', 'MICROCODE_AMD', 'ISDN_DRV_HISAX',
+       'CHARGER_BQ24190', 'SND_SOC_NAU8825', 'BH1750', 'NETWORK_FILESYSTEMS'],
+      dtype='object', length=12478)",12478,"LinearRegression(copy_X=True, fit_intercept=True, n_jobs=None,
+         normalize=False)",vmlinux,[],0.5,coef_LinearRegression_None_50_12498.csv,2514574.0437065316
+17,LassoCV,None,"Index(['X86_LOCAL_APIC', 'OPENVSWITCH', 'TEXTSEARCH_FSM', 'LOCKDEP_SUPPORT',
+       'GENERIC_CLOCKEVENTS_MIN_ADJUST', 'NETFILTER_XT_MATCH_TCPMSS', 'MPLS',
+       'NFC_HCI', 'STACKTRACE_SUPPORT', 'GENERIC_CMOS_UPDATE',
+       ...
+       'SND_SOC_INTEL_SKL_NAU88L25_SSM4567_MACH', 'APDS9960',
+       'ARCH_SUPPORTS_INT128', 'SLABINFO', 'MICROCODE_AMD', 'ISDN_DRV_HISAX',
+       'CHARGER_BQ24190', 'SND_SOC_NAU8825', 'BH1750', 'NETWORK_FILESYSTEMS'],
+      dtype='object', length=12478)",12478,"LassoCV(alphas=None, copy_X=True, cv=2, eps=0.001, fit_intercept=True,
+    max_iter=1000, n_alphas=100, n_jobs=-1, normalize=False,
+    positive=False, precompute='auto', random_state=None,
+    selection='cyclic', tol=0.0001, verbose=False)",vmlinux,[],0.5,coef_LassoCV_None_50_12498.csv,36.5847245799297
+18,RidgeCV,None,"Index(['X86_LOCAL_APIC', 'OPENVSWITCH', 'TEXTSEARCH_FSM', 'LOCKDEP_SUPPORT',
+       'GENERIC_CLOCKEVENTS_MIN_ADJUST', 'NETFILTER_XT_MATCH_TCPMSS', 'MPLS',
+       'NFC_HCI', 'STACKTRACE_SUPPORT', 'GENERIC_CMOS_UPDATE',
+       ...
+       'SND_SOC_INTEL_SKL_NAU88L25_SSM4567_MACH', 'APDS9960',
+       'ARCH_SUPPORTS_INT128', 'SLABINFO', 'MICROCODE_AMD', 'ISDN_DRV_HISAX',
+       'CHARGER_BQ24190', 'SND_SOC_NAU8825', 'BH1750', 'NETWORK_FILESYSTEMS'],
+      dtype='object', length=12478)",12478,"RidgeCV(alphas=array([ 0.1,  1. , 10. ]), cv=2, fit_intercept=True,
+    gcv_mode=None, normalize=False, scoring=None, store_cv_values=False)",vmlinux,[],0.5,coef_RidgeCV_None_50_12498.csv,62.42260993166631
+19,ElasticNetCV,None,"Index(['X86_LOCAL_APIC', 'OPENVSWITCH', 'TEXTSEARCH_FSM', 'LOCKDEP_SUPPORT',
+       'GENERIC_CLOCKEVENTS_MIN_ADJUST', 'NETFILTER_XT_MATCH_TCPMSS', 'MPLS',
+       'NFC_HCI', 'STACKTRACE_SUPPORT', 'GENERIC_CMOS_UPDATE',
+       ...
+       'SND_SOC_INTEL_SKL_NAU88L25_SSM4567_MACH', 'APDS9960',
+       'ARCH_SUPPORTS_INT128', 'SLABINFO', 'MICROCODE_AMD', 'ISDN_DRV_HISAX',
+       'CHARGER_BQ24190', 'SND_SOC_NAU8825', 'BH1750', 'NETWORK_FILESYSTEMS'],
+      dtype='object', length=12478)",12478,"ElasticNetCV(alphas=None, copy_X=True, cv=2, eps=0.001, fit_intercept=True,
+       l1_ratio=0.5, max_iter=1000, n_alphas=100, n_jobs=-1,
+       normalize=False, positive=False, precompute='auto',
+       random_state=None, selection='cyclic', tol=0.0001, verbose=0)",vmlinux,[],0.5,coef_ElasticNetCV_None_50_12498.csv,80.5754646082531
+20,LinearRegression,None,"Index(['X86_LOCAL_APIC', 'OPENVSWITCH', 'TEXTSEARCH_FSM', 'LOCKDEP_SUPPORT',
+       'GENERIC_CLOCKEVENTS_MIN_ADJUST', 'NETFILTER_XT_MATCH_TCPMSS', 'MPLS',
+       'NFC_HCI', 'STACKTRACE_SUPPORT', 'GENERIC_CMOS_UPDATE',
+       ...
+       'SND_SOC_INTEL_SKL_NAU88L25_SSM4567_MACH', 'APDS9960',
+       'ARCH_SUPPORTS_INT128', 'SLABINFO', 'MICROCODE_AMD', 'ISDN_DRV_HISAX',
+       'CHARGER_BQ24190', 'SND_SOC_NAU8825', 'BH1750', 'NETWORK_FILESYSTEMS'],
+      dtype='object', length=12478)",12478,"LinearRegression(copy_X=True, fit_intercept=True, n_jobs=None,
+         normalize=False)",vmlinux,[],0.6,coef_LinearRegression_None_60_12498.csv,5454358.853470155
+21,LassoCV,None,"Index(['X86_LOCAL_APIC', 'OPENVSWITCH', 'TEXTSEARCH_FSM', 'LOCKDEP_SUPPORT',
+       'GENERIC_CLOCKEVENTS_MIN_ADJUST', 'NETFILTER_XT_MATCH_TCPMSS', 'MPLS',
+       'NFC_HCI', 'STACKTRACE_SUPPORT', 'GENERIC_CMOS_UPDATE',
+       ...
+       'SND_SOC_INTEL_SKL_NAU88L25_SSM4567_MACH', 'APDS9960',
+       'ARCH_SUPPORTS_INT128', 'SLABINFO', 'MICROCODE_AMD', 'ISDN_DRV_HISAX',
+       'CHARGER_BQ24190', 'SND_SOC_NAU8825', 'BH1750', 'NETWORK_FILESYSTEMS'],
+      dtype='object', length=12478)",12478,"LassoCV(alphas=None, copy_X=True, cv=2, eps=0.001, fit_intercept=True,
+    max_iter=1000, n_alphas=100, n_jobs=-1, normalize=False,
+    positive=False, precompute='auto', random_state=None,
+    selection='cyclic', tol=0.0001, verbose=False)",vmlinux,[],0.6,coef_LassoCV_None_60_12498.csv,36.566833717581446
+22,RidgeCV,None,"Index(['X86_LOCAL_APIC', 'OPENVSWITCH', 'TEXTSEARCH_FSM', 'LOCKDEP_SUPPORT',
+       'GENERIC_CLOCKEVENTS_MIN_ADJUST', 'NETFILTER_XT_MATCH_TCPMSS', 'MPLS',
+       'NFC_HCI', 'STACKTRACE_SUPPORT', 'GENERIC_CMOS_UPDATE',
+       ...
+       'SND_SOC_INTEL_SKL_NAU88L25_SSM4567_MACH', 'APDS9960',
+       'ARCH_SUPPORTS_INT128', 'SLABINFO', 'MICROCODE_AMD', 'ISDN_DRV_HISAX',
+       'CHARGER_BQ24190', 'SND_SOC_NAU8825', 'BH1750', 'NETWORK_FILESYSTEMS'],
+      dtype='object', length=12478)",12478,"RidgeCV(alphas=array([ 0.1,  1. , 10. ]), cv=2, fit_intercept=True,
+    gcv_mode=None, normalize=False, scoring=None, store_cv_values=False)",vmlinux,[],0.6,coef_RidgeCV_None_60_12498.csv,67.97603469882334
+23,ElasticNetCV,None,"Index(['X86_LOCAL_APIC', 'OPENVSWITCH', 'TEXTSEARCH_FSM', 'LOCKDEP_SUPPORT',
+       'GENERIC_CLOCKEVENTS_MIN_ADJUST', 'NETFILTER_XT_MATCH_TCPMSS', 'MPLS',
+       'NFC_HCI', 'STACKTRACE_SUPPORT', 'GENERIC_CMOS_UPDATE',
+       ...
+       'SND_SOC_INTEL_SKL_NAU88L25_SSM4567_MACH', 'APDS9960',
+       'ARCH_SUPPORTS_INT128', 'SLABINFO', 'MICROCODE_AMD', 'ISDN_DRV_HISAX',
+       'CHARGER_BQ24190', 'SND_SOC_NAU8825', 'BH1750', 'NETWORK_FILESYSTEMS'],
+      dtype='object', length=12478)",12478,"ElasticNetCV(alphas=None, copy_X=True, cv=2, eps=0.001, fit_intercept=True,
+       l1_ratio=0.5, max_iter=1000, n_alphas=100, n_jobs=-1,
+       normalize=False, positive=False, precompute='auto',
+       random_state=None, selection='cyclic', tol=0.0001, verbose=0)",vmlinux,[],0.6,coef_ElasticNetCV_None_60_12498.csv,81.6003123860722
+24,LinearRegression,None,"Index(['X86_LOCAL_APIC', 'OPENVSWITCH', 'TEXTSEARCH_FSM', 'LOCKDEP_SUPPORT',
+       'GENERIC_CLOCKEVENTS_MIN_ADJUST', 'NETFILTER_XT_MATCH_TCPMSS', 'MPLS',
+       'NFC_HCI', 'STACKTRACE_SUPPORT', 'GENERIC_CMOS_UPDATE',
+       ...
+       'SND_SOC_INTEL_SKL_NAU88L25_SSM4567_MACH', 'APDS9960',
+       'ARCH_SUPPORTS_INT128', 'SLABINFO', 'MICROCODE_AMD', 'ISDN_DRV_HISAX',
+       'CHARGER_BQ24190', 'SND_SOC_NAU8825', 'BH1750', 'NETWORK_FILESYSTEMS'],
+      dtype='object', length=12478)",12478,"LinearRegression(copy_X=True, fit_intercept=True, n_jobs=None,
+         normalize=False)",vmlinux,[],0.7,coef_LinearRegression_None_70_12498.csv,125065.80934827543
+25,LassoCV,None,"Index(['X86_LOCAL_APIC', 'OPENVSWITCH', 'TEXTSEARCH_FSM', 'LOCKDEP_SUPPORT',
+       'GENERIC_CLOCKEVENTS_MIN_ADJUST', 'NETFILTER_XT_MATCH_TCPMSS', 'MPLS',
+       'NFC_HCI', 'STACKTRACE_SUPPORT', 'GENERIC_CMOS_UPDATE',
+       ...
+       'SND_SOC_INTEL_SKL_NAU88L25_SSM4567_MACH', 'APDS9960',
+       'ARCH_SUPPORTS_INT128', 'SLABINFO', 'MICROCODE_AMD', 'ISDN_DRV_HISAX',
+       'CHARGER_BQ24190', 'SND_SOC_NAU8825', 'BH1750', 'NETWORK_FILESYSTEMS'],
+      dtype='object', length=12478)",12478,"LassoCV(alphas=None, copy_X=True, cv=2, eps=0.001, fit_intercept=True,
+    max_iter=1000, n_alphas=100, n_jobs=-1, normalize=False,
+    positive=False, precompute='auto', random_state=None,
+    selection='cyclic', tol=0.0001, verbose=False)",vmlinux,[],0.7,coef_LassoCV_None_70_12498.csv,36.0197129069844
+26,RidgeCV,None,"Index(['X86_LOCAL_APIC', 'OPENVSWITCH', 'TEXTSEARCH_FSM', 'LOCKDEP_SUPPORT',
+       'GENERIC_CLOCKEVENTS_MIN_ADJUST', 'NETFILTER_XT_MATCH_TCPMSS', 'MPLS',
+       'NFC_HCI', 'STACKTRACE_SUPPORT', 'GENERIC_CMOS_UPDATE',
+       ...
+       'SND_SOC_INTEL_SKL_NAU88L25_SSM4567_MACH', 'APDS9960',
+       'ARCH_SUPPORTS_INT128', 'SLABINFO', 'MICROCODE_AMD', 'ISDN_DRV_HISAX',
+       'CHARGER_BQ24190', 'SND_SOC_NAU8825', 'BH1750', 'NETWORK_FILESYSTEMS'],
+      dtype='object', length=12478)",12478,"RidgeCV(alphas=array([ 0.1,  1. , 10. ]), cv=2, fit_intercept=True,
+    gcv_mode=None, normalize=False, scoring=None, store_cv_values=False)",vmlinux,[],0.7,coef_RidgeCV_None_70_12498.csv,75.80752045028876
+27,ElasticNetCV,None,"Index(['X86_LOCAL_APIC', 'OPENVSWITCH', 'TEXTSEARCH_FSM', 'LOCKDEP_SUPPORT',
+       'GENERIC_CLOCKEVENTS_MIN_ADJUST', 'NETFILTER_XT_MATCH_TCPMSS', 'MPLS',
+       'NFC_HCI', 'STACKTRACE_SUPPORT', 'GENERIC_CMOS_UPDATE',
+       ...
+       'SND_SOC_INTEL_SKL_NAU88L25_SSM4567_MACH', 'APDS9960',
+       'ARCH_SUPPORTS_INT128', 'SLABINFO', 'MICROCODE_AMD', 'ISDN_DRV_HISAX',
+       'CHARGER_BQ24190', 'SND_SOC_NAU8825', 'BH1750', 'NETWORK_FILESYSTEMS'],
+      dtype='object', length=12478)",12478,"ElasticNetCV(alphas=None, copy_X=True, cv=2, eps=0.001, fit_intercept=True,
+       l1_ratio=0.5, max_iter=1000, n_alphas=100, n_jobs=-1,
+       normalize=False, positive=False, precompute='auto',
+       random_state=None, selection='cyclic', tol=0.0001, verbose=0)",vmlinux,[],0.7,coef_ElasticNetCV_None_70_12498.csv,81.22090672379898
+28,LinearRegression,None,"Index(['X86_LOCAL_APIC', 'OPENVSWITCH', 'TEXTSEARCH_FSM', 'LOCKDEP_SUPPORT',
+       'GENERIC_CLOCKEVENTS_MIN_ADJUST', 'NETFILTER_XT_MATCH_TCPMSS', 'MPLS',
+       'NFC_HCI', 'STACKTRACE_SUPPORT', 'GENERIC_CMOS_UPDATE',
+       ...
+       'SND_SOC_INTEL_SKL_NAU88L25_SSM4567_MACH', 'APDS9960',
+       'ARCH_SUPPORTS_INT128', 'SLABINFO', 'MICROCODE_AMD', 'ISDN_DRV_HISAX',
+       'CHARGER_BQ24190', 'SND_SOC_NAU8825', 'BH1750', 'NETWORK_FILESYSTEMS'],
+      dtype='object', length=12478)",12478,"LinearRegression(copy_X=True, fit_intercept=True, n_jobs=None,
+         normalize=False)",vmlinux,[],0.8,coef_LinearRegression_None_80_12498.csv,2169160247.5342693
+29,LassoCV,None,"Index(['X86_LOCAL_APIC', 'OPENVSWITCH', 'TEXTSEARCH_FSM', 'LOCKDEP_SUPPORT',
+       'GENERIC_CLOCKEVENTS_MIN_ADJUST', 'NETFILTER_XT_MATCH_TCPMSS', 'MPLS',
+       'NFC_HCI', 'STACKTRACE_SUPPORT', 'GENERIC_CMOS_UPDATE',
+       ...
+       'SND_SOC_INTEL_SKL_NAU88L25_SSM4567_MACH', 'APDS9960',
+       'ARCH_SUPPORTS_INT128', 'SLABINFO', 'MICROCODE_AMD', 'ISDN_DRV_HISAX',
+       'CHARGER_BQ24190', 'SND_SOC_NAU8825', 'BH1750', 'NETWORK_FILESYSTEMS'],
+      dtype='object', length=12478)",12478,"LassoCV(alphas=None, copy_X=True, cv=2, eps=0.001, fit_intercept=True,
+    max_iter=1000, n_alphas=100, n_jobs=-1, normalize=False,
+    positive=False, precompute='auto', random_state=None,
+    selection='cyclic', tol=0.0001, verbose=False)",vmlinux,[],0.8,coef_LassoCV_None_80_12498.csv,34.320180111510616
+30,RidgeCV,None,"Index(['X86_LOCAL_APIC', 'OPENVSWITCH', 'TEXTSEARCH_FSM', 'LOCKDEP_SUPPORT',
+       'GENERIC_CLOCKEVENTS_MIN_ADJUST', 'NETFILTER_XT_MATCH_TCPMSS', 'MPLS',
+       'NFC_HCI', 'STACKTRACE_SUPPORT', 'GENERIC_CMOS_UPDATE',
+       ...
+       'SND_SOC_INTEL_SKL_NAU88L25_SSM4567_MACH', 'APDS9960',
+       'ARCH_SUPPORTS_INT128', 'SLABINFO', 'MICROCODE_AMD', 'ISDN_DRV_HISAX',
+       'CHARGER_BQ24190', 'SND_SOC_NAU8825', 'BH1750', 'NETWORK_FILESYSTEMS'],
+      dtype='object', length=12478)",12478,"RidgeCV(alphas=array([ 0.1,  1. , 10. ]), cv=2, fit_intercept=True,
+    gcv_mode=None, normalize=False, scoring=None, store_cv_values=False)",vmlinux,[],0.8,coef_RidgeCV_None_80_12498.csv,91.43366861079369
+31,ElasticNetCV,None,"Index(['X86_LOCAL_APIC', 'OPENVSWITCH', 'TEXTSEARCH_FSM', 'LOCKDEP_SUPPORT',
+       'GENERIC_CLOCKEVENTS_MIN_ADJUST', 'NETFILTER_XT_MATCH_TCPMSS', 'MPLS',
+       'NFC_HCI', 'STACKTRACE_SUPPORT', 'GENERIC_CMOS_UPDATE',
+       ...
+       'SND_SOC_INTEL_SKL_NAU88L25_SSM4567_MACH', 'APDS9960',
+       'ARCH_SUPPORTS_INT128', 'SLABINFO', 'MICROCODE_AMD', 'ISDN_DRV_HISAX',
+       'CHARGER_BQ24190', 'SND_SOC_NAU8825', 'BH1750', 'NETWORK_FILESYSTEMS'],
+      dtype='object', length=12478)",12478,"ElasticNetCV(alphas=None, copy_X=True, cv=2, eps=0.001, fit_intercept=True,
+       l1_ratio=0.5, max_iter=1000, n_alphas=100, n_jobs=-1,
+       normalize=False, positive=False, precompute='auto',
+       random_state=None, selection='cyclic', tol=0.0001, verbose=0)",vmlinux,[],0.8,coef_ElasticNetCV_None_80_12498.csv,81.22139504672464
+32,LinearRegression,None,"Index(['X86_LOCAL_APIC', 'OPENVSWITCH', 'TEXTSEARCH_FSM', 'LOCKDEP_SUPPORT',
+       'GENERIC_CLOCKEVENTS_MIN_ADJUST', 'NETFILTER_XT_MATCH_TCPMSS', 'MPLS',
+       'NFC_HCI', 'STACKTRACE_SUPPORT', 'GENERIC_CMOS_UPDATE',
+       ...
+       'SND_SOC_INTEL_SKL_NAU88L25_SSM4567_MACH', 'APDS9960',
+       'ARCH_SUPPORTS_INT128', 'SLABINFO', 'MICROCODE_AMD', 'ISDN_DRV_HISAX',
+       'CHARGER_BQ24190', 'SND_SOC_NAU8825', 'BH1750', 'NETWORK_FILESYSTEMS'],
+      dtype='object', length=12478)",12478,"LinearRegression(copy_X=True, fit_intercept=True, n_jobs=None,
+         normalize=False)",vmlinux,[],0.9,coef_LinearRegression_None_90_12498.csv,85358922.22353224
+33,LassoCV,None,"Index(['X86_LOCAL_APIC', 'OPENVSWITCH', 'TEXTSEARCH_FSM', 'LOCKDEP_SUPPORT',
+       'GENERIC_CLOCKEVENTS_MIN_ADJUST', 'NETFILTER_XT_MATCH_TCPMSS', 'MPLS',
+       'NFC_HCI', 'STACKTRACE_SUPPORT', 'GENERIC_CMOS_UPDATE',
+       ...
+       'SND_SOC_INTEL_SKL_NAU88L25_SSM4567_MACH', 'APDS9960',
+       'ARCH_SUPPORTS_INT128', 'SLABINFO', 'MICROCODE_AMD', 'ISDN_DRV_HISAX',
+       'CHARGER_BQ24190', 'SND_SOC_NAU8825', 'BH1750', 'NETWORK_FILESYSTEMS'],
+      dtype='object', length=12478)",12478,"LassoCV(alphas=None, copy_X=True, cv=2, eps=0.001, fit_intercept=True,
+    max_iter=1000, n_alphas=100, n_jobs=-1, normalize=False,
+    positive=False, precompute='auto', random_state=None,
+    selection='cyclic', tol=0.0001, verbose=False)",vmlinux,[],0.9,coef_LassoCV_None_90_12498.csv,34.129816510726016
+34,RidgeCV,None,"Index(['X86_LOCAL_APIC', 'OPENVSWITCH', 'TEXTSEARCH_FSM', 'LOCKDEP_SUPPORT',
+       'GENERIC_CLOCKEVENTS_MIN_ADJUST', 'NETFILTER_XT_MATCH_TCPMSS', 'MPLS',
+       'NFC_HCI', 'STACKTRACE_SUPPORT', 'GENERIC_CMOS_UPDATE',
+       ...
+       'SND_SOC_INTEL_SKL_NAU88L25_SSM4567_MACH', 'APDS9960',
+       'ARCH_SUPPORTS_INT128', 'SLABINFO', 'MICROCODE_AMD', 'ISDN_DRV_HISAX',
+       'CHARGER_BQ24190', 'SND_SOC_NAU8825', 'BH1750', 'NETWORK_FILESYSTEMS'],
+      dtype='object', length=12478)",12478,"RidgeCV(alphas=array([ 0.1,  1. , 10. ]), cv=2, fit_intercept=True,
+    gcv_mode=None, normalize=False, scoring=None, store_cv_values=False)",vmlinux,[],0.9,coef_RidgeCV_None_90_12498.csv,139.62752449704607
+35,ElasticNetCV,None,"Index(['X86_LOCAL_APIC', 'OPENVSWITCH', 'TEXTSEARCH_FSM', 'LOCKDEP_SUPPORT',
+       'GENERIC_CLOCKEVENTS_MIN_ADJUST', 'NETFILTER_XT_MATCH_TCPMSS', 'MPLS',
+       'NFC_HCI', 'STACKTRACE_SUPPORT', 'GENERIC_CMOS_UPDATE',
+       ...
+       'SND_SOC_INTEL_SKL_NAU88L25_SSM4567_MACH', 'APDS9960',
+       'ARCH_SUPPORTS_INT128', 'SLABINFO', 'MICROCODE_AMD', 'ISDN_DRV_HISAX',
+       'CHARGER_BQ24190', 'SND_SOC_NAU8825', 'BH1750', 'NETWORK_FILESYSTEMS'],
+      dtype='object', length=12478)",12478,"ElasticNetCV(alphas=None, copy_X=True, cv=2, eps=0.001, fit_intercept=True,
+       l1_ratio=0.5, max_iter=1000, n_alphas=100, n_jobs=-1,
+       normalize=False, positive=False, precompute='auto',
+       random_state=None, selection='cyclic', tol=0.0001, verbose=0)",vmlinux,[],0.9,coef_ElasticNetCV_None_90_12498.csv,81.10020041405485
